@@ -1,9 +1,17 @@
 {
-  "name": "coverage",
-  "version": "0.0.0",
-  "private": true,
-  "devDependencies": {
-    "stdin": "0.0.1",
-    "ejs": "^1.0.0"
-  }
+  "name": "yields-coverage",
+  "description": "code coverage",
+  "version": "0.2.0",
+  "main": "index.js",
+  "styles": [
+    "coverage.css"
+  ],
+  "dependencies": {
+    "component-each": "git://github.com/npmcomponent/component-each.git",
+    "component-query": "git://github.com/npmcomponent/component-query.git",
+    "component-domify": "git://github.com/npmcomponent/component-domify.git",
+    "yields-instrument": "git://github.com/npmcomponent/yields-instrument.git",
+    "yields-cover-map": "git://github.com/npmcomponent/yields-cover-map.git"
+  },
+  "license": "MIT"
 }

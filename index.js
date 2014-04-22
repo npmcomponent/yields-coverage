@@ -3,11 +3,11 @@
  * Dependencies
  */
 
-var instrument = require('instrument');
-var map = require('cover-map');
-var domify = require('domify');
-var query = require('query');
-var each = require('each');
+var instrument = require('yields-instrument');
+var map = require('yields-cover-map');
+var domify = require('component-domify');
+var query = require('component-query');
+var each = require('component-each');
 var ui = require('./ui');
 
 /**
